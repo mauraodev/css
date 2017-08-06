@@ -1,0 +1,108 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	background-color: #3B2B3D;
+	color: #AB99AC;	
+}
+
+.app {
+	position: absolute;
+	top: 50px;
+	left: 40%;
+	border: 1px solid #3B2B3D;
+	width: 300px;
+	height: 500px;
+	-webkit-box-shadow: 10px 10px 37px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 37px -4px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 37px -4px rgba(0,0,0,0.75);
+}
+
+.menu {
+	width: 100px;
+	height: 500px;
+	background-color: #422F45;
+	border-left: 2px solid #3B2B3D;	
+	color: #fff;
+	box-sizing: border-box;	
+}
+
+.menu li {
+	min-height: 20px;
+	max-height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 500;
+	border-bottom: 1px solid #3B2B3D;
+}
+
+.menu li figure {
+	margin: 5px;
+}
+
+.menu li figcaption {
+	color: #AB99AC;
+}
+
+.history {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 500px;
+	box-sizing: border-box;
+	text-align: right;	
+}
+
+.history ul {
+	height: 100%;
+}
+
+.history li {
+	padding: 8px;
+	text-transform: uppercase;
+}
+
+.proximas-faturas {
+	border-right: 10px solid #F7A501;
+	height: 7%
+}
+
+.proximas-faturas-price {
+	color: #F7A501;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.fatura-total {
+	border-right: 10px solid #00B6C2;
+	height: 10%
+}
+
+.fatural-total-price {
+	color: #00B6C2;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.fatura-fechada {
+	border-right: 10px solid #DE5E59;
+	height: 30%
+}
+
+.fatural-fechada-price {
+	color: #DE5E59;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.limite-disponivel {
+	border-right: 10px solid #97CC2C;
+	height: 40%
+}
+
+.limite-disponivel-price {
+	color: #97CC2C;
+	font-weight: bold;
+	padding: 3px;
+}
