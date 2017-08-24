@@ -1,0 +1,9 @@
+.container, .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #f9f9f9;
+}
+
+.row {
+    margin-bottom: 20px;
+}

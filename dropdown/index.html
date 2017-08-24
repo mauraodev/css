@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu CSS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            *{
+                font-family: Tahoma;
+                font-size: 10px;
+            }
+
+            #menu {
+                list-style:none;
+                font-weight:bold;
+                float:left;
+            }
+
+            #menu li{
+                float:left;
+                position:relative;
+            }
+
+            #menu a{
+                display:block;
+                padding:5px;
+                color:#fff;
+                background:#333;
+                text-decoration:none;
+            }
+
+            #menu ul{
+                background:#fff;
+                list-style:none;
+                position:absolute;
+                display: none
+            }
+
+            #menu ul li{
+                padding-top:1px;
+                float:none;
+            }
+
+
+            #menu li:hover ul{
+                display: block;
+                left:-40px;
+                width: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul id="menu">
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">Tutorial</a>
+                <ul>
+                    <li><a href="#">Css</a></li>
+                    <li><a href="#">Php</a></li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

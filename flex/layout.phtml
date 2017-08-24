@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Exemplo Flexbo</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+nav {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.menu {
+    background-color: #172028;
+    color: #fff;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu .logo {
+    background-color: #64A883;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.flex-column {
+    -webkit-flex: 1;
+        flex: 1;
+}
+</style>
+<body>
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <li class="logo"></li>
+                <li>
+                    <img src="img/dashboard.png" alt="" title="">
+                </li>
+                <li>
+                    <img src="img/about.png" alt="" title="">
+                </li>
+                <li>
+                    <img src="img/contact.png" alt="" title="">
+                </li>
+                <li>
+                    <img src="img/logout.png" alt="Logout" title="Logout">
+                </li>
+            </ul>
+        </nav>
+        <div class="flex-column">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        </div>
+    </div>
+</body>
+</html>
